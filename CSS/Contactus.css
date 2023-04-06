@@ -336,6 +336,9 @@ section {
 }
 
 @media (max-width: 600px) {
+    section {
+    padding-top: 20px;
+}
     .input-icons span select {
         /* font-size: 0.7rem; */
         /* font-weight: 550; */
