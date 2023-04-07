@@ -236,7 +236,7 @@ header .nav-item a:hover {
   background-color: rgb(237, 239, 241);
 }
 
-.hiring-sec-box .icon-2 {
+.hiring-sec-box #icon-2 {
 
   padding: 20px 32px;
 
@@ -374,6 +374,11 @@ header .nav-item a:hover {
   border: 2px solid white;
 }
 
+.contact-more-info-btn .explore_btn:hover{
+  background-color: rgb(28 32 84);
+  color: rgb(255, 38, 0);
+  border: 2px solid rgb(255, 38, 0);
+}
 
 /* Testinomial */
 
@@ -511,6 +516,11 @@ header .nav-item a:hover {
 
 /* Responsive code*/
 
+@media only screen and (min-width: 1780px) {
+  .proof_of_work img {
+    margin-top: -8%;
+}
+}
 @media only screen and (min-width: 1580px) {
 
   .heading {
@@ -779,7 +789,7 @@ header .nav-item a:hover {
     background-color: rgb(237, 239, 241);
   }
 
-  .hiring-sec-box .icon-2 {
+  .hiring-sec-box #icon-2 {
 
     padding: 10px 17px;
     padding-top: 13px;
